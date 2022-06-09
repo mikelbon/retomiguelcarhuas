@@ -1,0 +1,121 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1774000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I access the ebay website",
+            "match": {
+              "location": "com.rimac.StepDefinitions.EbaySteps.i_access_the_ebay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-09T17:08:59.756Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2210000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.rimac.StepDefinitions.EbaySteps.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Flow 1 - Shoe price comparison",
+        "description": "",
+        "id": "rimac-seguros---reto-tecnico;flow-1---shoe-price-comparison",
+        "after": [
+          {
+            "result": {
+              "duration": 182000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.rimac.StepDefinitions.EbaySteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2444000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I find sneaker \"zapatilla deportiva\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"zapatilla deportiva\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.rimac.StepDefinitions.EbaySteps.i_find_sneaker(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25475000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I filter by Blanco and Rojo color",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blanco",
+                  "offset": 12
+                },
+                {
+                  "val": "Rojo",
+                  "offset": 23
+                }
+              ],
+              "location": "com.rimac.StepDefinitions.EbaySteps.i_filter_by_blanco_and_rojo_color(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@challenge"
+          }
+        ]
+      }
+    ],
+    "name": "Rimac Seguros - Reto Tecnico",
+    "description": "",
+    "id": "rimac-seguros---reto-tecnico",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Ebay.feature",
+    "tags": [
+      {
+        "name": "@challenge",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
