@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="43.605" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="62.092" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="PE"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/miguelcarhuas/mcarhuas/2.Development/Java/RimacChallenge/automation-framework/target/surefire/surefirebooter3879266776724360445.jar /Users/miguelcarhuas/mcarhuas/2.Development/Java/RimacChallenge/automation-framework/target/surefire 2022-06-09T12-08-52_758-jvmRun1 surefire3101336724228107308tmp surefire_02746151206897053850tmp"/>
+    <property name="sun.java.command" value="/Users/miguelcarhuas/mcarhuas/2.Development/Java/RimacChallenge/automation-framework/target/surefire/surefirebooter7057178014928970823.jar /Users/miguelcarhuas/mcarhuas/2.Development/Java/RimacChallenge/automation-framework/target/surefire 2022-06-10T00-21-54_649-jvmRun1 surefire4615174054281616544tmp surefire_02969540035766954149tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/miguelcarhuas/mcarhuas/2.Development/Java/RimacChallenge/automation-framework/target/test-classes:/Users/miguelcarhuas/mcarhuas/2.Development/Java/RimacChallenge/automation-framework/target/classes:/Users/miguelcarhuas/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/miguelcarhuas/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/miguelcarhuas/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/miguelcarhuas/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/miguelcarhuas/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/miguelcarhuas/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/miguelcarhuas/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/miguelcarhuas/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/miguelcarhuas/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/miguelcarhuas/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/miguelcarhuas/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/miguelcarhuas/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/miguelcarhuas/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/miguelcarhuas/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/miguelcarhuas/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/miguelcarhuas/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/miguelcarhuas/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/miguelcarhuas/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/miguelcarhuas/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/miguelcarhuas/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/miguelcarhuas/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/miguelcarhuas/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/miguelcarhuas/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/miguelcarhuas/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/miguelcarhuas/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/miguelcarhuas/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/miguelcarhuas/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/miguelcarhuas/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/miguelcarhuas/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/miguelcarhuas/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/miguelcarhuas/.m2/repository/io/cucumber/cucumber-java/6.7.0/cucumber-java-6.7.0.jar:/Users/miguelcarhuas/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/miguelcarhuas/.m2/repository/io/cucumber/cucumber-testng/6.7.0/cucumber-testng-6.7.0.jar:/Users/miguelcarhuas/.m2/repository/io/cucumber/cucumber-core/6.7.0/cucumber-core-6.7.0.jar:/Users/miguelcarhuas/.m2/repository/io/cucumber/cucumber-gherkin/6.7.0/cucumber-gherkin-6.7.0.jar:/Users/miguelcarhuas/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.7.0/cucumber-gherkin-messages-6.7.0.jar:/Users/miguelcarhuas/.m2/repository/io/cucumber/messages/13.0.1/messages-13.0.1.jar:/Users/miguelcarhuas/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/miguelcarhuas/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/miguelcarhuas/.m2/repository/io/cucumber/datatable/3.4.0/datatable-3.4.0.jar:/Users/miguelcarhuas/.m2/repository/io/cucumber/cucumber-plugin/6.7.0/cucumber-plugin-6.7.0.jar:/Users/miguelcarhuas/.m2/repository/io/cucumber/docstring/6.7.0/docstring-6.7.0.jar:/Users/miguelcarhuas/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/miguelcarhuas/.m2/repository/io/cucumber/create-meta/2.0.2/create-meta-2.0.2.jar:/Users/miguelcarhuas/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/miguelcarhuas/mcarhuas/2.Development/Java/RimacChallenge/automation-framework/target/surefire/surefirebooter3879266776724360445.jar"/>
+    <property name="surefire.real.class.path" value="/Users/miguelcarhuas/mcarhuas/2.Development/Java/RimacChallenge/automation-framework/target/surefire/surefirebooter7057178014928970823.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -62,21 +62,46 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="runScenario[&quot;Flow 1 - Shoe price comparison&quot;, &quot;Optional[Rimac Seguros - Reto Tecnico]&quot;](1)" classname="com.rimac.TestRunner" time="32.28">
+  <testcase name="runScenario[&quot;Flow 1 - Shoe price comparison&quot;, &quot;Optional[Rimac Seguros - Reto Tecnico]&quot;](1)" classname="com.rimac.TestRunner" time="32.82">
     <system-out><![CDATA[
 @challenge
 Scenario: Flow 1 - Shoe price comparison    &amp#27;[90m# src/test/resources/features/Ebay.feature:8&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI access the ebay website&amp#27;[0m           &amp#27;[90m# com.rimac.StepDefinitions.EbaySteps.i_access_the_ebay_website()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI find sneaker &amp#27;[0m&amp#27;[32m&amp#27;[1m"zapatilla deportiva"&amp#27;[0m &amp#27;[90m# com.rimac.StepDefinitions.EbaySteps.i_find_sneaker(java.lang.String)&amp#27;[0m
-93,28 EUR
-57,67 EUR
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI filter by &amp#27;[0m&amp#27;[32m&amp#27;[1mBlanco&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mRojo&amp#27;[0m&amp#27;[32m color&amp#27;[0m     &amp#27;[90m# com.rimac.StepDefinitions.EbaySteps.i_filter_by_blanco_and_rojo_color(java.lang.String,java.lang.String)&amp#27;[0m
+marcas
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mbrand is&amp#27;[0m                              &amp#27;[90m# com.rimac.StepDefinitions.EbaySteps.brand_is(io.cucumber.datatable.DataTable)&amp#27;[0m
+****************************
+***  ZAPATILLA MAS CARA  ***
+PRODUCTO: Adidas Puremotion Adapt Zapatillas Deportivas de Mujer Correr Mocasines Informal=103.91
+PRECIO: 103.91 EUR
+****************************
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI get the price of the third shoe&amp#27;[0m    &amp#27;[90m# com.rimac.StepDefinitions.EbaySteps.i_get_the_price_of_the_third_shoe()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 9895
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 7938
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-jun 09, 2022 12:09:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+jun 10, 2022 12:22:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACI?N: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Flow 2 - Price Validation&quot;, &quot;Optional[Rimac Seguros - Reto Tecnico]&quot;](2)" classname="com.rimac.TestRunner" time="18.383">
+    <system-out><![CDATA[
+@challenge
+Scenario: Flow 2 - Price Validation           &amp#27;[90m# src/test/resources/features/Ebay.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI access the ebay website&amp#27;[0m             &amp#27;[90m# com.rimac.StepDefinitions.EbaySteps.i_access_the_ebay_website()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mbuyer goes to &amp#27;[0m&amp#27;[32m&amp#27;[1m"House and Garden"&amp#27;[0m       &amp#27;[90m# com.rimac.StepDefinitions.EbaySteps.buyer_goes_to(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mbuyer goes to &amp#27;[0m&amp#27;[32m&amp#27;[1m"materiales de bricolaje"&amp#27;[0m &amp#27;[90m# com.rimac.StepDefinitions.EbaySteps.buyer_goes_to(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mbuyer goes to &amp#27;[0m&amp#27;[32m&amp#27;[1m"Puertas de Garage"&amp#27;[0m       &amp#27;[90m# com.rimac.StepDefinitions.EbaySteps.buyer_goes_to(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mbuyer select &amp#27;[0m&amp#27;[32m&amp#27;[1mditec&amp#27;[0m&amp#27;[32m option&amp#27;[0m               &amp#27;[90m# com.rimac.StepDefinitions.EbaySteps.buyer_select_ditec_option(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mprice should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"19 EUR"&amp#27;[0m               &amp#27;[90m# com.rimac.StepDefinitions.EbaySteps.price_should_be(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 13179
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jun 10, 2022 12:22:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACI?N: Detected dialect: W3C
 ]]></system-err>
   </testcase>

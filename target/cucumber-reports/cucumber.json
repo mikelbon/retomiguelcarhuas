@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1774000000,
+              "duration": 2777000000,
               "status": "passed"
             },
             "line": 6,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-09T17:08:59.756Z",
+        "start_timestamp": "2022-06-10T05:22:00.750Z",
         "before": [
           {
             "result": {
-              "duration": 2210000000,
+              "duration": 1557000000,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 182000000,
+              "duration": 122000000,
               "status": "passed"
             },
             "match": {
@@ -56,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2444000000,
+              "duration": 2901000000,
               "status": "passed"
             },
             "line": 9,
@@ -74,7 +74,6 @@
           },
           {
             "result": {
-              "duration": 25475000000,
               "status": "passed"
             },
             "line": 10,
@@ -93,6 +92,195 @@
               "location": "com.rimac.StepDefinitions.EbaySteps.i_filter_by_blanco_and_rojo_color(java.lang.String,java.lang.String)"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25316000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "brand is",
+            "match": {
+              "location": "com.rimac.StepDefinitions.EbaySteps.brand_is(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "brands"
+                ]
+              },
+              {
+                "cells": [
+                  "adidas"
+                ]
+              },
+              {
+                "cells": [
+                  "wilson"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I get the price of the third shoe",
+            "match": {
+              "location": "com.rimac.StepDefinitions.EbaySteps.i_get_the_price_of_the_third_shoe()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@challenge"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1393000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I access the ebay website",
+            "match": {
+              "location": "com.rimac.StepDefinitions.EbaySteps.i_access_the_ebay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-10T05:22:33.478Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1229000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.rimac.StepDefinitions.EbaySteps.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Flow 2 - Price Validation",
+        "description": "",
+        "id": "rimac-seguros---reto-tecnico;flow-2---price-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.rimac.StepDefinitions.EbaySteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3569000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "buyer goes to \"House and Garden\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"House and Garden\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.rimac.StepDefinitions.EbaySteps.buyer_goes_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3733000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "buyer goes to \"materiales de bricolaje\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"materiales de bricolaje\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.rimac.StepDefinitions.EbaySteps.buyer_goes_to(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4968000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "buyer goes to \"Puertas de Garage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Puertas de Garage\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.rimac.StepDefinitions.EbaySteps.buyer_goes_to(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3329000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "buyer select ditec option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ditec",
+                  "offset": 13
+                }
+              ],
+              "location": "com.rimac.StepDefinitions.EbaySteps.buyer_select_ditec_option(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "price should be \"19 EUR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"19 EUR\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.rimac.StepDefinitions.EbaySteps.price_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [

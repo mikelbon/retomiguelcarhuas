@@ -1,7 +1,6 @@
-runners/MainRunner.class
+util/Utils.class
 util/Brand.class
 com/rimac/StepDefinitions/EbaySteps.class
-stepDefinitions/Contact_Us_Steps.class
 util/BrandStore.class
 com/rimac/TestRunner.class
 util/Normal.class
